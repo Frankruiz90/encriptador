@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="container">
+      <div class="container__form">
+        <h2 class="title">Encriptador</h2>
+        <textarea rows="20" class="text__encrypt" id="inputText" placeholder="Escribe tu texto aquí"></textarea
+        ><br /><br />
+        <button class="button__encrypt" onclick="encryptText()">Encriptar</button>
+        <button class="button__decrypt" onclick="decryptText()">Desencriptar</button>
+    </div>
+    <div class="container__result">
+        <h3 class="title">Resultado</h3>
+        <p id="resultText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci montes, sit et diam risus scelerisque vitae est. Tortor maecenas nunc ut laoreet. Eget diam mauris quam quisque ut eget fringilla sit elit. Libero, sodales duis fames id diam feugiat aliquet non egestas.</p>
+        <button class="button__decrypt" onclick="copyText()">Copiar</button>
+    </div>
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>
